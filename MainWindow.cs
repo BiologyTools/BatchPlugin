@@ -7,8 +7,8 @@ namespace BatchPlugin
 {
     public class BatchPlugin : BioGTK.Plugin.IPlugin
     {
-        public string Name => "Batch-Processing";
-        public string MenuPath => "Tools/" + Name + ".dll";
+        public string Name => "BatchPlugin";
+        public string MenuPath => "Tools/BatchPlugin.dll";
         public bool ContextMenu => false;
         private MainWindow main;
         public void Execute(string[] args)
