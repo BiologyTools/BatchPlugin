@@ -51,9 +51,9 @@ namespace BatchPlugin
             private Builder _builder;
 #pragma warning disable 649
             [Builder.Object]
-            private Gtk.TextView inputTextBox;
+            private Gtk.Entry inputTextBox;
             [Builder.Object]
-            private Gtk.TextView outputTextBox;
+            private Gtk.Entry outputTextBox;
             [Builder.Object]
             private Gtk.ComboBox comBox;
             [Builder.Object]
