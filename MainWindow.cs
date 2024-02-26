@@ -2,6 +2,7 @@
 using BioGTK;
 using Gdk;
 using Gtk;
+using SkiaSharp.Views.Desktop;
 using static BioGTK.Plugin;
 namespace BatchPlugin
 {
@@ -28,7 +29,7 @@ namespace BatchPlugin
         {
 
         }
-        public void Drawn(object o, DrawnArgs e)
+        public void Render(object sender, SKPaintSurfaceEventArgs e)
         {
 
         }
